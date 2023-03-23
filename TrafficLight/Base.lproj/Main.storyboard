@@ -19,15 +19,15 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="njg-Z0-hOr">
                                 <rect key="frame" x="110" y="34" width="100" height="359"/>
                                 <subviews>
-                                    <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="81y-4N-aja" userLabel="Red">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="81y-4N-aja" userLabel="Red">
                                         <rect key="frame" x="0.0" y="0.0" width="100" height="101"/>
                                         <color key="backgroundColor" systemColor="systemRedColor"/>
                                     </view>
-                                    <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yAh-yA-4yd" userLabel="Yellow">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yAh-yA-4yd" userLabel="Yellow">
                                         <rect key="frame" x="0.0" y="129" width="100" height="101"/>
                                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                                     </view>
-                                    <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lYR-Nv-9HX" userLabel="Green">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lYR-Nv-9HX" userLabel="Green">
                                         <rect key="frame" x="0.0" y="258" width="100" height="101"/>
                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                     </view>
@@ -49,7 +49,7 @@
                                     <color key="titleColor" systemColor="systemBackgroundColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="startButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DVN-IT-UP6"/>
+                                    <action selector="startButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="TP2-l4-kCj"/>
                                 </connections>
                             </button>
                         </subviews>
